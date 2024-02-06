@@ -1,0 +1,34 @@
+{
+  "name": "BS2",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "Shared": {
+        "$ignoreUnknownInstances": false,
+        "$path": "src/Shared"
+      },
+      "Packages": {
+        "$ignoreUnknownInstances": false,
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/Server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "PlayerMain": {
+          "$ignoreUnknownInstances": false,
+          "$path": "src/Player"
+        }
+      }
+    }
+  }
+}
